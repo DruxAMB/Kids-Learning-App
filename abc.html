@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css" />
+    <title>DruxAMB - ABC Learning App</title>
+</head>
+<body>
+    <div class="nav bg-info d-flex p-2 justify-content-between">
+        <div class="h1 text-white fw-bold mx-5"><b class="text-success">D</b>ruxAMB</div>
+        <div class="btn" id="menu" onclick="menu()"><img src="/svg/menu.svg" class="d-md-none" alt="menu"></div>
+        <div class="btn fw-bold fs-4" id="menuX" onclick="menuX()">&#10005;</div>
+        <div class="navItem d-md-flex justify-content-between my-2" id="navItem" style="width: 55rem;">
+          <div class="nav-item"><a href="/home.html" class="fw-bold fs-4">Home</a></div>
+          <div class="nav-item"><a href="/abc.html" class="fw-bold fs-4">Learn A B C</a></div>
+          <div class="nav-item"><a href="/123.html" class="fw-bold fs-4">Learn 1 2 3</a></div>
+          <div class="nav-item"><a href="/words.html" class="fw-bold fs-4 me-5">Learn A B C With Words</a></div>
+        </div>
+    </div>
+    <div class="my-5 mx-auto" style="width: 28rem">
+        <div class="abc d-flex">
+          <div  class="abc border border-5 rounded fw-bold py-5"  id="imageABC"  style="width:22rem; height: 19.5rem">
+            <!-- <q class="text-white fw-bold" id="disText" style="font-size: 3rem"><b class="text-info">Learn</b> A B C for <b class="text-warning">Kids</b></q></div><div  class="h1 border border-5 rounded my-auto bg-secondary fw-bold text-white"  id="text1"></div> -->
+          </div>
+    </div>
+
+    <audio autoplay loop><source src="/My rec/ABC rec.aac"></audio>
+
+    <script src="/main.js"></script>
+</body>
+</html>

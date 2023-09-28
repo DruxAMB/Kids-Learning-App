@@ -1,0 +1,54 @@
+
+body {
+    background-image: url(/images/Back.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#navItem {
+    display: none;
+}
+#menuX {
+    display: none;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+.nav-item:hover a{
+    text-decoration: underline;
+}
+.nav-item:active a{
+    color: black;
+}
+
+#image {
+    background-image: url(/images/back.jpg);
+    background-position: center;
+}
+
+#imageABC{
+    background-image: url(/images/ABC.jpg);
+    background-position: center;
+}
+
+#image123{
+    background-image: url(/images/123.jpg);
+    background-position: center;
+}
+
+#text1 {
+    display: none;
+}
+
+#restart {
+    display: none;
+}
+
+#next {
+    display: none;
+}
+#prev{
+    display: none;
+}
